@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Assignment 1</title>
+  </head>
+  <body>
+    <img src="data:image/png;base64,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" alt="">
+    <h1><u>
+      SKILLVERTEX</u>
+    </h1>
+    <em>An e-learning platform with a<strong> vision to upskill </strong>students for the industry and help you land your dream Job/University</em>
+    <nav>
+      <ul>
+        <li><a href="#student-info">INFO</a></li>
+        <li><a href="#about us">ABOUT</a></li>
+        <li><a href="#courses">COURSES</a></li>
+      </ul>
+    </nav> 
+    <h2><u>REGISTRATION FORM</u></h2>
+    <main>
+      <form method="post" action="https://freecodecamp.org/practice-project/accessibility-quiz">
+        <section role="region" aria-labelledby="student-info">
+          <h3 id="student-info"><u>Student Info</u></h3>
+          <div class="info">
+            <label for="student-name">Name:</label>
+            <input type="text" name="student-name" id="student-name" placeholder="Enter name" />
+          </div></br>
+          <div class="info">
+            <label for="student-email">Email:</label>
+            <input type="email" name="student-email" id="student-email" placeholder="Enter email-id" />
+          </div></br>
+          <div class="info">
+            <label for="birth-date">D.O.B.<span class="sr-only">(Date of Birth)</span></label>
+            <input type="date" name="birth-date" id="birth-date" />
+          </div></br>
+          <lable for="gender">Gender:
+            <input type="radio" name="applied" value=1>Male
+            <input type="radio" name="applied" value=2>Female
+            </label>
+          </br></br>
+        </section>
+        <hr>
+      </br></br>
+      
+       <label for="branch">Which course do you want to opt?</br>
+         <input type="radio" name="branch" value=1>Web Development</br>
+         <input type="radio" name="branch" value=2>Machine Learning</br>
+         <input type="radio" name="branch" value=1>Data Science</br>
+         <input type="radio" name="branch" value=2>Android/Flutter
+       </label>
+      </br></br>
+      <label for="stage">How do you classify yourself?</br>
+        <input type="radio" name="stage" value=1>Beginner</br>
+        <input type="radio" name="stage" value=2>Intermediate</br>
+        <input type="radio" name="stage" value=1>Advance</br>
+        
+        </label>
+      </br>
+      <label for="customer">Which batch would you prefer?</label></br>
+        <select name="customer" id="customer" required>
+          <option value="">Select an option</option>
+          <option value="yes">March 15 to April 15</option>
+          <option value="no">April 20 to May 20</option>
+        </select></br></br>
+        <hr>
+        <label for="css-questions">Do you have any questions:</label></br>
+          <textarea id="questions" name="questions" rows="5" cols="24" placeholder="..."></textarea></br></br>
+          <button type="submit">Submit</button></br></br></br></br>
+      </form>
+    </main>   
+    <hr>  
+    <section role="region" aria-labelledby="about us">
+        <h3 id="about us"><u>About us</u></h3>
+        <adress>
+          <b><i>Bhavika Jain</i></b></br>
+          <i>05/03/2023</i>
+        </adress>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.  Dolore, assumenda velit veritatis iusto porro aliquid sed incidunt laborum minus.</blockquote>  Quas magni maxime voluptates et nemo ab quo! Ad, fugit. Provident soluta officia exercitationem, sequi aspernatur incidunt dolor assumenda sed, quam mollitia voluptas repellat optio unde ipsam sit iusto dicta pariatur itaque magnam eius numquam odit nulla labore. Minima dicta harum accusamus natus incidunt, maxime soluta aperiam nesciunt, quibusdam tenetur possimus ea sapiente omnis quos sint earum eveniet! Harum, quae deleniti?</p>
+        <p>Alias rem quo quis, eveniet fugiat numquam ipsa qui nisi vero, neque quasi dicta aliquid eligendi officia? Aspernatur, tempore hic voluptates at neque vel eveniet tenetur aliquid ullam iusto quas provident,<blockquote> "Officiis fugit dolore soluta! Culpa libero est assumenda! Earum ipsam maiores omnis corporis vel accusantium, blanditiis fuga, voluptas, harum quis itaque ipsa cupiditate!"</blockquote> Asperiores sint necessitatibus, ab perspiciatis repellendus placeat sed optio provident iste assumenda quod perferendis deleniti accusantium nisi. Vero ut excepturi doloremque totam nemo velit minus modi?</p>
+        <article>Quia facilis molestias dicta error sequi esse, incidunt accusamus iure at repudiandae sed hic, perspiciatis velit nemo dolore maiores alias numquam! Enim ratione cum voluptate sed mollitia debitis totam, <small>qui aspernatur voluptates, quas omnis ullam dignissimos facere, soluta doloremque animi eius quos? Libero, ullam tempora exercitationem est ipsam deserunt temporibus quod sequi qui ipsa vitae rem eveniet, natus dignissimos! Quia, iusto ut. Mollitia tempore at quibusdam. Doloremque facere amet praesentium placeat aliquam, quibusdam temporibus repudiandae fugit non nisi! Blanditiis, cupiditate?</small></article>
+    </section>   
+    <hr>
+    <section role="region" aria-labelledby="courses">
+      <h3 id="courses"><u>Courses</u></h3>
+      <ol>
+      <li><h4>Web Development</h4></li>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab laborum odio voluptatibus quidem eius magni facilis veritatis veniam. Quaerat consectetur dolorum maxime nam tempore assumenda corporis ex maiores repellendus.</p>
+      <li><h4>Machine Learning</h4></li>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit suscipit nemo delectus tenetur sed similique quod consectetur. Totam, aliquam voluptatem ex quia officiis eos saepe maxime placeat id, quod architecto.</p>
+      <li><h4>Data Science</h4></li>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam unde laudantium quos fugit? Ea, in ut officiis repellendus optio iste maxime cum sequi voluptate placeat exercitationem, dolore nesciunt nihil sit!</p>
+      <li><h4>Android/Flutter</h4></li>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, nulla animi vitae non illum eos sequi? Magni delectus at, soluta molestiae accusamus iusto fugiat, necessitatibus ipsum nostrum maxime debitis voluptatibus.</p>
+      </ol>
+    </section>
+    </br>
+    </br>
+    <table>
+      <tr>
+        <th><p>Lorem</p></th>
+        <th><p>Lorem, ipsum.</p></th>
+        
+      </tr>
+
+      <tr>
+        <td><p>Lorem ipsum dolor sit .</p></td>
+        <td><p>Lorem ipsum dolor sit amet consectetur.</p></td>
+        
+      </tr>
+      <tr>
+        <td><p>Lorem, ipsum dolor.</p></td>
+        <td><p>Lorem ipsum dolor sit.</p></td>
+        
+      </tr>
+      <tr>
+        <td><p>Lorem ipsum dolor sit .</p></td>
+        <td><p>Lorem ipsum dolor sit amet consectetur.</p></td>
+        
+      </tr>
+      <tr>
+        <td><p>Lorem ipsum dolor sit .</p></td>
+        <td><p>Lorem ipsum dolor sit .</p></td>
+        
+      </tr>
+    </table>
+
+
+    <hr>
+    <footer>
+      <h3><u>Contact us at:</u></h3>
+      <h5><a href="https://www.skillvertex.com/">Google</a></h5>
+      <h5><a href="https://in.linkedin.com/company/skillvertexedutech">LinkedIn</a></h5>
+      <h5><a href="https://www.instagram.com/skillvertex.in/?hl=en">Instagram</a></h5>
+    </footer> 
+    <h6>Thank you for visiting!</h6>
+  </body>
+</html>
